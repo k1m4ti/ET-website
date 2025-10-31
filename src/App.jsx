@@ -1,28 +1,26 @@
 import './App.css';
+import Button from 'react-bootstrap/Button';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src="Octocat.png" className="App-logo" alt="logo" />
-        <p>
-          GitHub Codespaces <span className="heart">♥️</span> React
-        </p>
-        <p className="small">
-          Edit <code>src/App.jsx</code> and save to reload.
-        </p>
-        <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </p>
-      </header>
+
+    <div className=" vh-100">
+      <h2 className="ms-4 ps-2 w-100 my-4">Physics 1</h2>
+      <ul >
+        <a
+          href="/electron_in_magnetic_field.html"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-blue-500 text-green-500 rounded hover:bg-blue-600"
+        >
+          Electron in Magnetic Field
+        </a>
+      </ul>
+
     </div>
+
+
   );
 }
 
